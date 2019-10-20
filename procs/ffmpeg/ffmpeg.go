@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 	"os/exec"
-	"../base"
+	"github.com/wakira/livedl/procs/base"
 )
 
 var cmdList = []string{

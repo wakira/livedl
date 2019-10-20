@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"os"
 	"strings"
-	"../gorman"
-	"../files"
-	"../httpbase"
-	"../objs"
+	"github.com/wakira/livedl/gorman"
+	"github.com/wakira/livedl/files"
+	"github.com/wakira/livedl/httpbase"
+	"github.com/wakira/livedl/objs"
 )
 
 func getComment(gm *gorman.GoroutineManager, ctx context.Context, sig <-chan struct{}, isReplay bool, continuation, name string) (done bool) {

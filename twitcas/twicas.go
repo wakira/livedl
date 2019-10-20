@@ -12,9 +12,9 @@ import (
 	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/gorilla/websocket"
-	"../files"
-	"../httpbase"
-	"../procs/ffmpeg"
+	"github.com/wakira/livedl/files"
+	"github.com/wakira/livedl/httpbase"
+	"github.com/wakira/livedl/procs/ffmpeg"
 	"os/exec"
 	"io"
 )

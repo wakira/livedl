@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"log"
 
-	"./base"
+	"github.com/wakira/livedl/procs/base"
 )
 
 func Kill(pid int) {

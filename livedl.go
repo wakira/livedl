@@ -5,14 +5,14 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"./options"
-	"./twitcas"
-	"./niconico"
-	"./youtube"
-	"./zip2mp4"
+	"github.com/wakira/livedl/options"
+	"github.com/wakira/livedl/twitcas"
+	"github.com/wakira/livedl/niconico"
+	"github.com/wakira/livedl/youtube"
+	"github.com/wakira/livedl/zip2mp4"
 	"time"
 	"strings"
-	"./httpbase"
+	"github.com/wakira/livedl/httpbase"
 )
 
 func main() {

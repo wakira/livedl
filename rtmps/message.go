@@ -8,7 +8,7 @@ import (
 	"io"
 
 	"fmt"
-	"../amf"
+	"github.com/wakira/livedl/amf"
 )
 
 const (

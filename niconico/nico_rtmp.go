@@ -10,11 +10,11 @@ import (
 	"sync"
 	"log"
 	"time"
-	"../rtmps"
-	"../amf"
-	"../options"
-	"../files"
-	"../httpbase"
+	"github.com/wakira/livedl/rtmps"
+	"github.com/wakira/livedl/amf"
+	"github.com/wakira/livedl/options"
+	"github.com/wakira/livedl/files"
+	"github.com/wakira/livedl/httpbase"
 )
 
 type Content struct {
