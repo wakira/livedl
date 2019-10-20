@@ -11,16 +11,16 @@ import (
 	"os"
 	"os/exec"
 	"io/ioutil"
-	"github.com/wakira/livedl/files"
-	"github.com/wakira/livedl/log4gui"
+	"github.com/himananiito/livedl/files"
+	"github.com/himananiito/livedl/log4gui"
 
 	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
 	"bytes"
 	"time"
-	"github.com/wakira/livedl/niconico"
-	"github.com/wakira/livedl/youtube"
-	"github.com/wakira/livedl/procs/ffmpeg"
+	"github.com/himananiito/livedl/niconico"
+	"github.com/himananiito/livedl/youtube"
+	"github.com/himananiito/livedl/procs/ffmpeg"
 )
 
 type ZipMp4 struct {

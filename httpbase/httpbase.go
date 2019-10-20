@@ -16,8 +16,8 @@ import (
 	"encoding/pem"
 	"bytes"
 
-	"github.com/wakira/livedl/buildno"
-	"github.com/wakira/livedl/defines"
+	"github.com/himananiito/livedl/buildno"
+	"github.com/himananiito/livedl/defines"
 )
 
 func GetUserAgent() string {

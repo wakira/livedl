@@ -9,10 +9,10 @@ import (
 	"io"
 	"io/ioutil"
 	"regexp"
-	"github.com/wakira/livedl/amf"
-	"github.com/wakira/livedl/flvs"
-	"github.com/wakira/livedl/objs"
-	"github.com/wakira/livedl/files"
+	"github.com/himananiito/livedl/amf"
+	"github.com/himananiito/livedl/flvs"
+	"github.com/himananiito/livedl/objs"
+	"github.com/himananiito/livedl/files"
 )
 
 type DecodeError struct {

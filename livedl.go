@@ -5,14 +5,14 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"github.com/wakira/livedl/options"
-	"github.com/wakira/livedl/twitcas"
-	"github.com/wakira/livedl/niconico"
-	"github.com/wakira/livedl/youtube"
-	"github.com/wakira/livedl/zip2mp4"
+	"github.com/himananiito/livedl/options"
+	"github.com/himananiito/livedl/twitcas"
+	"github.com/himananiito/livedl/niconico"
+	"github.com/himananiito/livedl/youtube"
+	"github.com/himananiito/livedl/zip2mp4"
 	"time"
 	"strings"
-	"github.com/wakira/livedl/httpbase"
+	"github.com/himananiito/livedl/httpbase"
 )
 
 func main() {
